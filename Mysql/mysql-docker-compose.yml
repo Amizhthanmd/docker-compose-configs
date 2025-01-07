@@ -4,8 +4,8 @@ services:
     container_name: mysql_server
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: amizhthan_mysql
-      # MYSQL_DATABASE: your_database_name
+      MYSQL_ROOT_PASSWORD: secret_mysql
+      MYSQL_DATABASE: testing
       MYSQL_USER: amizhthan
       MYSQL_PASSWORD: mysql_amizhthan
     ports:
